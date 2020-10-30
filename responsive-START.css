@@ -179,9 +179,14 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
   
+  .instantgram div{
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: 2 1fr;
+    
+  }
   .instant{
   display: grid;
-  background: #ffc600;
   text-align: center;
   }
   
