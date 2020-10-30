@@ -183,7 +183,7 @@
     grid-area: 1/1/1/8;
     justify-self: center;
     display: grid;
-    grid-template-columns: repeat(minmax(250, 1));
+    grid-template-columns: repeat(auto-fit, minmax(250, 1));
     width: 100%;
   }
 
@@ -196,7 +196,6 @@
   }
 
   .gallery .instantgramb{
-    grid-column: 2;
     text-align: center;
     width: auto;
     margin-bottom: 5rem;
@@ -222,17 +221,23 @@
     'hero hero'
     'cta-cta-1 cta-cta-2';
   }
+
+    .gallery .instantgramc{
+    width: 100px;
+  }
   
+  .gallery .instantgramb{
+    grid-column: 1;
+  }
+
+  .gallery .instantgrama{
+    width: 100px;
+  }
+
   .hero h1{
     font-size:2rem;
   }
-  
-  .gallery{
-    grid-template-columns:1fr;
-   
-  }
  
-
   .menu ul{
     grid-template-columns: 1fr;
   }
