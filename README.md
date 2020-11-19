@@ -2,7 +2,7 @@
 This class work is to build a responsive website using grid.
 
 # Image
-![welcome interface.](.images/screenshot.PNG "This is the mini-classwork outlook")
+![welcome interface.](images/screenshot.PNG "This is the mini-classwork outlook")
 
 # Built With
 * CSS
@@ -28,7 +28,7 @@ This class work is to build a responsive website using grid.
 * https://www.linkedin.com/company/michub/
 
 # Live Demo
-[See project live here] ()
+[See project live here] (https://raw.githack.com/Esther94/mini-classwork/main/responsive-START.html)
 
 # 🤝 Contributions
 * This project is open to your comments and contributions.

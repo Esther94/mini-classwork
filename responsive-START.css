@@ -250,7 +250,7 @@
   .top {
     grid-template-areas:
     'hero'
-    'cta-cta-1'
+    'cta-cta-1's
     'cta-cta-2';
   }
-}  
+}
