@@ -72,111 +72,111 @@
   
   /* hero*/
   .hero{
-  grid-area: hero;
-  min-height:400px;
-  background: url(images/taco.jpg);
-  background-size: cover;
-  background-position:center;
-  padding: 3rem;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  text-shadow:var(shadow);
+    grid-area: hero;
+    min-height:400px;
+    background: url(images/taco.jpg);
+    background-size: cover;
+    background-position:center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-shadow:var(shadow);
   }
   
   .hero h1{
-  font-size: 3rem;
-  margin-top: 0;
-  color: var(--black);
-  background: #ffc600;
-  display: grid;
-  padding: 1rem;
+    font-size: 3rem;
+    margin-top: 0;
+    color: var(--black);
+    background: #ffc600;
+    display: grid;
+    padding: 1rem;
   }
   
-  .hero p{
-  font-size: 1.7rem;
-  margin-top: 0;
-  color: var(--black);
-  background: #ffc600;
-  display: grid;
-  padding: 1rem;
+    .hero p{
+    font-size: 1.7rem;
+    margin-top: 0;
+    color: var(--black);
+    background: #ffc600;
+    display: grid;
+    padding: 1rem;
   }
   
   /*cta-cta*/
   .cta.cta1,
   .cta.cta2{
-  background:#ffc600;
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  box-shadow: var(--shadow);
+    background:#ffc600;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: var(--shadow);
   }
   
   .price{
-  font-size: 5rem;
-  font-weight: 400;
+    font-size: 5rem;
+    font-weight: 400;
   }
   
   .cta.cta1{
-  grid-area:cta cta1;
+    grid-area:cta cta1;
   }
   
   .cta.cta2{
-  grid-area: cta cta2;
+    grid-area: cta cta2;
   }
   
   .menu ul{
-  display: grid;
-  grid-gap :20px;
-  padding: 0;
-  list-style: none;
-  grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    grid-gap :20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(5, 1fr);
   }
   
   .menu a{
-  background: #ffc600;
-  display: block;
-  text-decoration: none;
-  padding: 0,8rem;
-  text-align: center;
-  color: black;
-  font-weight: 500;
-  font-size:2rem ;
-  box-shadow: var(--shadow);
+    background: #ffc600;
+    display: block;
+    text-decoration: none;
+    padding: 0,8rem;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size:2rem ;
+    box-shadow: var(--shadow);
   }
   
   .menu a:hover{
-  background: var(--black);
-  color:var rgba(--light);
+    background: var(--black);
+    color:var rgba(--light);
   }
   
   .features{
-  display: grid;
-  grid-gap:20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
   
   .feature{
-  background: wheat;
-  text-align: center;
-  padding: 1.5rem 2rem;
-  box-shadow: var(--shadow);
+    background: wheat;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
   }
   
   .about{
-  background: wheat;
-  box-shadow: var(--shadow);
-  display: grid;
-  grid-gap:30px;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 3rem;
+    background: wheat;
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-gap:30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
   }
   
   .gallery{
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
   
   .gallery .instantgram{
@@ -250,7 +250,7 @@
   .top {
     grid-template-areas:
     'hero'
-    'cta-cta-1's
+    'cta-cta-1'
     'cta-cta-2';
   }
 }
